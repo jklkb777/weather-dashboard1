@@ -1,0 +1,50 @@
+<html lang="pl">
+<head>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/home.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href=/static/img/icon.png>
+
+
+
+</head>
+<body>
+<div class="left_options" style="width: 12%">
+<form>
+    OPCJE WYSZUKIWANIA <br><br>
+    <button class="sprawdz_po" type="button">Miasto      </button><br><br>
+    <button class="sprawdz_po" type="button">Kod pocztowy</button><br><br>
+    <hr>
+
+
+    🌡️ JEDNOSTKI <br><br>
+  <input class="radio" type="radio" id="fahrenhit" name="jednostki" value="fahrenhit" >
+  <label for="fahrenhit">Fahrenhit</label><br><br>
+  <input type="radio" id="celsjusz" name="jednostki" value="celsjusz" checked>
+  <label class="radio" for="celsjusz">Celsjusz</label><br><br>
+
+
+
+</form>
+
+
+
+</div>
+<div style="margin-left: 5%">
+    <h2 id="text-pop-up-top" class="weatherText">
+        <p class="emojimain">⛅</p>
+        Weather Dashobard in Flask<br></h2>
+        <form class="weatherText" id="weatherForm" action="{{ url_for('render_results') }}" method="post">
+        <img src="/static/img/townmain.png" width="300" height="300"><br>
+           Wprowadź kod pocztowy
+        <input class="weatherText" id="weatherInput" type="text" name="zipCode" autocomplete="on" placeholder="XX-XXX"><br><br>
+        <input class="Button" id="weatherSubmit" type="submit" value="SUBMIT">
+    </div>
+</form>
+</div>
+</body>
+
+</html>

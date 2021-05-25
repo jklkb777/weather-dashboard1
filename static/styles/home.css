@@ -1,0 +1,126 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+background: rgb(79,0,205);
+background: linear-gradient(328deg, rgba(79,0,205,1) 0%, rgba(21,2,79,1) 100%);
+    color: black;
+}
+
+.resultbody {
+    background: rgb(240,229,0);
+background: linear-gradient(328deg, rgba(240,229,0,1) 0%, rgba(255,149,0,1) 100%);
+}
+h2 {
+    margin: 5%;
+    font-size: 24px;
+    color: white;
+
+}
+.weatherText {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+}
+
+#weatherForm {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.38);
+box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.38);
+}
+
+#weatherSubmit {
+      background-color: #e22b3a;
+  border: none;
+    border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    margin: 2%;
+    cursor:pointer;
+}
+#weatherSubmit:hover {
+	background-color: #ff6e6e;
+}
+#weatherSubmit:active {
+	position:relative;
+	top:1px;
+}
+
+.left_options {
+    position: fixed;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rebeccapurple;
+    margin: 0;
+    padding: 10;
+    border-top: 1px solid black;
+
+padding:30px;
+
+background:#343434;
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+bottom: 0;
+
+height: 100%;
+
+}
+
+.sprawdz_po {
+  background-color: blueviolet;
+  border: none;
+    border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    margin: 2%;
+    cursor:pointer;
+}
+
+.sprawdz_po:hover {
+	background-color: #6e26ae;
+}
+.sprawdz_po:active {
+	position:relative;
+	top:1px;
+}
+
+.radio {
+    cursor:pointer;
+}
+
+.emojimain{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.wyniki{
+    color: black;
+    font-size: 70px;
+      margin-left: 50%;
+  width: 40%;
+  padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.38);
+box-shadow: 10px 10px 64px 0px rgba(0,0,0,0.38);
+}
